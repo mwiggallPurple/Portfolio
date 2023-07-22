@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(7, 6, 6, 0.3), rgba(7, 6, 6, 0.3)), url(./gian-luca-pilia-KxQYNqp329Y-unsplash.jpg);
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar{
+    display:flex;
+    justify-content: flex-end;   
+    background-color: cadetblue; 
+    height:20px;
+    align-items: center;
+  }
+
+.navBar a{
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 4px 22px;
+    text-decoration: none; 
+}
+
+h1{
+    display:column;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-top: 80px;
+    justify-content: center;
+    letter-spacing: 1.2px;
+}
+
+.name{
+    color: rgb(20, 20, 133);
+    padding-left: 5px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.heroP{
+    display: column;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.aboutMe{
+    display:flex;
+    flex-direction: column; 
+}
+
+
+.aboutMeH2{
+    color:rgba(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.aboutP {
+    font-size: 10px;
+    font-weight: 300;
+    /* text-align: center; */
+    padding: 0px 15px;
+}
