@@ -9,7 +9,8 @@ body {
 }
 
 .hero{
-    background-image: linear-gradient(rgba(7, 6, 6, 0.3), rgba(7, 6, 6, 0.3)), url(./gian-luca-pilia-KxQYNqp329Y-unsplash.jpg);
+   background-color: #00bcd4;
+    /* background-image: linear-gradient(rgba(7, 6, 6, 0.3), rgba(7, 6, 6, 0.3)), url(./gian-luca-pilia-KxQYNqp329Y-unsplash.jpg); */
     display:flex;
     flex-direction: column;
     height: 70vh;
@@ -21,7 +22,7 @@ body {
 .navBar{
     display:flex;
     justify-content: flex-end;   
-    background-color: cadetblue; 
+    background-color: #0096aa; 
     height:20px;
     align-items: center;
   }
@@ -36,17 +37,18 @@ body {
 
 h1{
     display:column;
-    font-size: 35px;
+    font-size: 7vw;
     text-align: center;
     color: white;
     font-weight: 400;
     margin-top: 80px;
     justify-content: center;
     letter-spacing: 1.2px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .name{
-    color: rgb(20, 20, 133);
+    color: #0000ff;
     padding-left: 5px;
     font-weight: 600;
     letter-spacing: 1.3px;
@@ -56,27 +58,197 @@ h1{
     display: column;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 4vw;
     font-weight: 300;
     justify-content: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .aboutMe{
     display:flex;
     flex-direction: column; 
+    padding-bottom: 20px;
 }
 
 
-.aboutMeH2{
+#aboutMeH2{
+    color:rgb(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 15px 0px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.aboutP {
+    font-size: 1.4vw;
+    font-weight: 300;
+    padding: 9px 15px;
+}
+
+.skills{
+    background-color: #b3ebf2;
+    padding-bottom:15px;
+}
+
+#skillsH2{
+    color:rgb(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    letter-spacing:1.1px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+} 
+
+.skillsL{
+     columns: 2;
+     -webkit-columns: 2;
+     -moz-columns: 2;
+}
+
+
+li{
+    font-size: 10px;
+    font-weight: 300;
+    padding: 0px 15px; 
+    list-style-type: none;
+    text-align: center;
+}
+
+.softSkillsH2{
     color:rgba(7, 6, 6,);
     font-weight: 300;
     text-align: center;
     padding: 15px 0px;
+    letter-spacing: 1.1px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-.aboutP {
+.softSkills{
+    color:rgba(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+
+.projects{
+    background-color: #b3ebf2;
+    padding-bottom:15px;
+    text-align: center;
+}
+
+#projectsH2{
+    flex-direction: column;
+    color:rgba(7, 6, 6,);
+    font-weight: 300;
+    padding: 15px 0px;
+    letter-spacing:1.1px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.projectsP{
+    flex-direction: column;
     font-size: 10px;
     font-weight: 300;
-    /* text-align: center; */
-    padding: 0px 15px;
+    padding: 0px 0px 15px 0px;
+    letter-spacing: 1.1px;
 }
+
+.card {
+    display:inline-block;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+    /* height: 164px; */
+    /* width: 150px; */
+    
+}
+
+.card-text {
+   
+}
+
+
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:-2px;
+}
+
+p {
+    margin-top:10px;
+    color: rgb(63, 63, 63);
+}
+
+
+
+.contactMe{
+    padding: 30px 0px;
+}
+
+#contactMeH2{
+    color:rgba(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 15px 0px;
+    letter-spacing:1.1px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.container {
+    width: 250px;
+    margin:auto;
+    padding:10px 20px;
+    background-color: hsla(182, 25%, 50%, 0.181);
+    border-radius: 4px;
+    border: solid 1px rgba(95, 158, 160, 0.578);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+[type="submit"],
+textarea {
+width: 100%;
+padding: 5px 0px 5px 0px;
+border: none;
+border-radius: 5px;
+}
+
+input[type="submit"] {
+width: 100%;
+background-color: rgba(95, 158, 160, 0.478);
+color: rgba(7, 6, 6,);
+cursor: pointer;
+} 
+
+   
+input[type="submit"]:hover {
+background-color:RGB(160, 97, 95);
+color:white;
+}
+
+label{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0,);
+    font-size: 10px;
+}
+
+footer{
+    background-color: cadetblue;
+    color: white;
+    align-items: center;
+}
+
