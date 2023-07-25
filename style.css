@@ -13,15 +13,12 @@ body {
     display:flex;
     flex-direction: column;
     height: 70vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .navBar{
     display:flex;
     justify-content: flex-end;   
-    background-color: #0096aa; 
+    background-color: #00bcd4; 
     height:20px;
     align-items: center;
   }
@@ -34,8 +31,11 @@ body {
     text-decoration: none; 
 }
 
+.navBar a:hover{
+    text-decoration: underline;
+    text-decoration-color:#0000ff; 
+}
 h1{
-    display:column;
     font-size: 7vw;
     text-align: center;
     color: white;
@@ -64,8 +64,8 @@ h1{
 }
 
 .aboutMe{
-    /* display:flex;
-    flex-direction: column;  */
+    display:flex;
+    flex-direction: column; 
     padding-bottom: 20px;
 }
 
@@ -79,9 +79,9 @@ h1{
 }
 
 .aboutP {
-    font-size: 1.4vw;
+    font-size: 12px;
     font-weight: 300;
-    padding: 9px 15px;
+    padding: 20px 15px 0px 15px;
 }
 
 .skills{
@@ -145,7 +145,7 @@ li{
     font-weight: 300;
     padding: 15px 0px;
     letter-spacing:1.1px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(7,6,6,0.3);
 }
 
 .projectsP{
@@ -157,44 +157,53 @@ li{
 }
 
 .card {
-    /* display: flex; */
     flex-wrap: wrap;
     display:inline-block;
     width: 200px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(7, 6, 6, 0.35) 0px 5px 15px;
     height: 200px;
     margin: 10px;
     
 }
 
 img {
-    border-radius: 20px 20px 0 0;
-    /* height: 164px; */
-    /* width: 150px; */
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 100px;
+    width: 100px;
     
 }
 
 .card-text {
-   
+  text-align: center; 
+  text-transform: capitalize;
+  color:rgb(7, 6, 6,);
 }
 
 
 
-h2 {
+.cardH4 {
     font-size: 20px;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin:-2px;
+    font-weight: 300;
 }
 
-p {
+.cardP {
     margin-top:10px;
-    color: rgb(63, 63, 63);
+    color: rgb(7, 6, 6,);
+    font-weight: 300;
 }
 
+.pLink{
+    text-decoration: none;
+    color: #333333;
+}
 
+.pLink:hover{
+    text-decoration: underline;
+    text-decoration-color:#00bcd4 ;
+}
 
 .contactMe{
     padding: 30px 0px;
@@ -252,8 +261,10 @@ label{
 }
 
 footer{
-    background-color: cadetblue;
+    background-color: #00bcd4;
     color: white;
     align-items: center;
+    font-size: 10px;
+    font-weight: 100;
 }
 
