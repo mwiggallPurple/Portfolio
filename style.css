@@ -33,8 +33,9 @@ body {
 
 .navBar a:hover{
     text-decoration: underline;
-    text-decoration-color:#0000ff; 
+    text-decoration-color:white; 
 }
+
 h1{
     font-size: 7vw;
     text-align: center;
@@ -242,15 +243,15 @@ border-radius: 5px;
 
 input[type="submit"] {
 width: 100%;
-background-color: rgba(95, 158, 160, 0.478);
+background-color: #00bcd4;
 color: rgba(7, 6, 6,);
 cursor: pointer;
 } 
 
    
 input[type="submit"]:hover {
-background-color:RGB(160, 97, 95);
-color:white;
+background-color:#ff6b35;
+
 }
 
 label{
