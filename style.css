@@ -64,8 +64,8 @@ h1{
 }
 
 .aboutMe{
-    display:flex;
-    flex-direction: column; 
+    /* display:flex;
+    flex-direction: column;  */
     padding-bottom: 20px;
 }
 
@@ -85,6 +85,8 @@ h1{
 }
 
 .skills{
+    display: flex;
+    flex-direction: column;
     background-color: #b3ebf2;
     padding-bottom:15px;
 }
@@ -113,6 +115,15 @@ li{
     text-align: center;
 }
 
+.softSkills{
+    display: flex;
+    flex-direction: column;
+    color:rgba(7, 6, 6,);
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+
 .softSkillsH2{
     color:rgba(7, 6, 6,);
     font-weight: 300;
@@ -122,13 +133,6 @@ li{
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-.softSkills{
-    color:rgba(7, 6, 6,);
-    font-weight: 300;
-    text-align: center;
-    padding: 0px 0px 15px 0px;
-}
-
 .projects{
     background-color: #b3ebf2;
     padding-bottom:15px;
@@ -136,7 +140,7 @@ li{
 }
 
 #projectsH2{
-    flex-direction: column;
+    display: column;
     color:rgba(7, 6, 6,);
     font-weight: 300;
     padding: 15px 0px;
@@ -153,8 +157,10 @@ li{
 }
 
 .card {
+    /* display: flex; */
+    flex-wrap: wrap;
     display:inline-block;
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
