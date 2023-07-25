@@ -9,8 +9,7 @@ body {
 }
 
 .hero{
-   background-color: #00bcd4;
-    /* background-image: linear-gradient(rgba(7, 6, 6, 0.3), rgba(7, 6, 6, 0.3)), url(./gian-luca-pilia-KxQYNqp329Y-unsplash.jpg); */
+    background-color: #00bcd4;
     display:flex;
     flex-direction: column;
     height: 70vh;
