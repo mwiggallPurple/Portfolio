@@ -6,6 +6,7 @@
 
 body {
     font-family: Poppins, sans-serif;
+    min-height: 100vh;
 }
 
 .hero{
@@ -102,9 +103,9 @@ h1{
 } 
 
 .skillsL{
-     columns: 2;
-     -webkit-columns: 2;
-     -moz-columns: 2;
+     columns: 3;
+     -webkit-columns: 3;
+     -moz-columns: 3;
 }
 
 
@@ -262,10 +263,18 @@ label{
 }
 
 footer{
-    background-color: #00bcd4;
-    color: white;
-    align-items: center;
+    display: flex;
+    background-color: white;
+    color: black;
+    /* align-items: center; */
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 300;
+    height: 30px;
+    width:100%
+
 }
 
+i{
+    font-size: 20px;
+    
+}
