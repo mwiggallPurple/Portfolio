@@ -31,6 +31,7 @@ body {
     font-weight: 400;
     padding: 4px 22px;
     text-decoration: none; 
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
 .navBar a:hover{
@@ -57,7 +58,6 @@ h1{
 }
 
 .heroP{
-    display: column;
     text-align: center;
     color: white;
     font-size: 4vw;
@@ -65,10 +65,8 @@ h1{
     justify-content: center;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
-
+/* main section starts here///////////////////////////////////////////////////////////////// */
 .aboutMe{
-    display:flex;
-    flex-direction: column; 
     padding-bottom: 20px;
 }
 
@@ -86,12 +84,10 @@ h1{
     font-weight: 300;
     padding: 20px 15px 0px 15px;
 }
-
-.skills{
-    display: flex;
-    flex-direction: column;
+/* skills starts here////////////////////////////////////////////////////////////////////////////////////////////// */
+.skills{ 
     background-color: #b3ebf2;
-    padding-bottom:15px;
+    padding-bottom:20px;
 }
 
 #skillsH2{
@@ -113,19 +109,16 @@ h1{
 li{
     font-size: 10px;
     font-weight: 300;
-    padding: 0px 15px; 
     list-style-type: none;
     text-align: center;
     letter-spacing: 1.1px;
 }
 
 .softSkills{
-    display: flex;
-    flex-direction: column;
     color:rgba(7, 6, 6,);
     font-weight: 300;
     text-align: center;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .softSkillsH2{
@@ -136,9 +129,10 @@ li{
     letter-spacing: 1.1px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
-
+/* photos section/////////////////////////////////////////////////////////////////////////////////////////// */
 .photos{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     
 }
@@ -148,7 +142,7 @@ li{
     width:100px;
     border-radius: 50%;
 }
-
+/* projects section here////////////////////////////////////////////////////////////////////////////////////////// */
 .projects{
     background-color: #b3ebf2;
     padding-bottom:15px;
@@ -156,7 +150,6 @@ li{
 }
 
 #projectsH2{
-    display: column;
     color:rgba(7, 6, 6,);
     font-weight: 300;
     padding: 15px 0px;
@@ -165,7 +158,6 @@ li{
 }
 
 .projectsP{
-    flex-direction: column;
     font-size: 10px;
     font-weight: 300;
     padding: 0px 0px 15px 0px;
@@ -173,15 +165,13 @@ li{
 }
 
 .card {
-    flex-wrap: wrap;
     display:inline-block;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: rgba(7, 6, 6, 0.35) 0px 5px 15px;
     height: 200px;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 
 img {
@@ -221,10 +211,9 @@ img {
     text-decoration-color:#00bcd4 ;
 }
 
+/* contact section here/////////////////////////////////////////////////////////////////////////////////////// */
 .contactMe{
-    padding: 30px 0px;
-    display:flex;
-    flex-direction: column;
+    padding: 20px 0px;
 }
 
 #contactMeH2{
@@ -261,7 +250,7 @@ border-radius: 5px;
 input[type="submit"] {
 width: 100%;
 background-color: #00bcd4;
-color: rgba(7, 6, 6,);
+color: #333333;
 cursor: pointer;
 } 
 
@@ -286,25 +275,22 @@ label{
 
 
 i{
-    display:flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #00bcd4;  
 }
 
 i:hover{
     color:#b3ebf2;
 }
-
+/* footer here//////////////////////////////////////////////////////////////////////////////////////// */
 
 footer{
-    display: flex;
     background-color:#00bcd4;
     color: black;
     font-size: 10px;
     font-weight: 300;
     height: 20px;
-    text-align: center;
 }
 
 footer p{
