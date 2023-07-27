@@ -94,6 +94,7 @@ h1{
 #skillsH2{
     color:rgb(7, 6, 6,);
     font-weight: 300;
+    font-size: 30px;
     text-align: center;
     padding: 15px 0px 0px 0px;
     letter-spacing:1.1px;
@@ -108,7 +109,7 @@ h1{
 
 
 li{
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 300;
     list-style-type: none;
     text-align: center;
@@ -125,6 +126,7 @@ li{
 .softSkillsH2{
     color:rgba(7, 6, 6,);
     font-weight: 300;
+    font-size: 30px;
     text-align: center;
     padding: 15px 0px;
     letter-spacing: 1.1px;
@@ -139,8 +141,8 @@ li{
 }
 
 .photos img{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
     border-radius: 50%;
 }
 /* projects section here////////////////////////////////////////////////////////////////////////////////////////// */
@@ -153,13 +155,14 @@ li{
 #projectsH2{
     color:rgba(7, 6, 6,);
     font-weight: 300;
+    font-size: 30px;
     padding: 15px 0px;
     letter-spacing:1.1px;
     text-shadow: 2px 2px 3px rgba(7,6,6,0.3);
 }
 
 .projectsP{
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 300;
     padding: 0px 0px 15px 0px;
     letter-spacing: 1.1px;
@@ -199,6 +202,7 @@ img {
     margin-top:10px;
     color: rgb(7, 6, 6,);
     font-weight: 300;
+    font-size:16px;
     letter-spacing: 1px;
 }
 
@@ -220,7 +224,7 @@ img {
 #contactMeH2{
     color:rgba(7, 6, 6,);
     font-weight: 300;
-    
+    font-size: 30px;
     text-align: center;
     padding: 15px 0px;
     letter-spacing:1.1px;
@@ -266,7 +270,7 @@ label{
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: rgba(0, 0, 0,);
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
@@ -280,6 +284,7 @@ i{
     justify-content: center;
     font-size: 30px;
     color: #00bcd4;  
+    padding-bottom: 10px;
 }
 
 i:hover{
