@@ -29,7 +29,7 @@ body {
     color: white;
     font-size: 16px;
     font-weight: 400;
-    padding: 4px 22px;
+    padding: 4px 10px;
     text-decoration: none; 
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
@@ -109,7 +109,7 @@ h1{
 
 
 li{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     list-style-type: none;
     text-align: center;
