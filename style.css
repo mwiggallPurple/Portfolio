@@ -16,7 +16,12 @@ body {
     height: 70vh;
 }
 
-.navBar{
+#mobileView{
+    background-color: #00bcd4;
+}
+
+
+#desNavBar{
     display:flex;
     justify-content: flex-start;   
     background-color: #00bcd4; 
@@ -25,7 +30,7 @@ body {
     letter-spacing:1.1px;
   }
 
-.navBar a{
+#desNavBar a{
     color:white;
     font-size: 16px;
     font-weight: 400;
@@ -34,9 +39,14 @@ body {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
-.navBar a:hover{
+#desNavBar a:hover{
     text-decoration: underline;
     text-decoration-color:white; 
+}
+
+
+#desNavBar{
+    display:none;
 }
 
 h1{
@@ -302,4 +312,14 @@ footer{
 
 footer p{
     margin-left: 3px;
+}
+
+@media screen and  (min-width: 400px) {
+#mobileView {
+        display:none;
+    }
+
+    #desNavBar{
+        display:block;
+    }
 }
