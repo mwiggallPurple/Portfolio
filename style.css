@@ -20,6 +20,36 @@ body {
     background-color: #00bcd4;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #00bcd4;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    }
+    
+  .topnav #myLinks {
+      display: none;
+   }
+    
+    /* Style navigation menu links */
+  .topnav a {
+      color:rgb(247, 246, 246);
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block; 
+  }
+    
+    /* Style the hamburger menu */
+  .topnav a.icon {
+      background: #0000ff;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0; 
+  }
+
 
 #desNavBar{
     display:flex;

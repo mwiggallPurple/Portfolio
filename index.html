@@ -12,13 +12,27 @@
 </head>
 <body>
 <section id="mobileView">
-    <ul id="mobileView">
+    <!-- <ul id="mobileView">
         <li><a href="#">Home</a></li>
         <li ><a href="#aboutMeH2">About Me</a></li>
         <li><a href="#skillsH2">Skills</a></li>
         <li><a href="#projectsH2">Projects</a></li>
         <li><a href="#contactMeH2">Contact Me</a></li>
-    </ul>
+    </ul> -->
+    <div class="topnav">
+        <a href="#home" class="active">Home</a>
+          <div id="myLinks">
+          <a href="#aboutMeH2">About Me</a>
+          <a href="#skillsH2">Skills</a>
+          <a href="#projectsH2">Projects</a>
+          <a href="contactMeH2">Contact Me</a>
+        </div> 
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </a>
+        </div>
+
 </section>
 
     <nav id="desNavBar">
@@ -157,5 +171,6 @@
     <p>Images by freepik</p>
 </footer>
 
+<script src="./app.js"></script>
 </body>
 </html>
