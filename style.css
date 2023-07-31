@@ -43,11 +43,16 @@ body {
     
     /* Style the hamburger menu */
   .topnav a.icon {
-      background: #0000ff;
+      background:#00bcd4;
       display: block;
       position: absolute;
       right: 0;
       top: 0; 
+  }
+
+  .fa-sharp {
+    color: white;
+    
   }
 
 
