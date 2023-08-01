@@ -20,13 +20,11 @@
           <a href="#skillsH2">Skills</a>
           <a href="#projectsH2">Projects</a>
           <a href="#contactMeH2">Contact Me</a>
-        </div> 
+          </div> 
         
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa-sharp fa-solid fa-bars"></i>
-          </a>
-        </div>
-
+        <a href="javascript:void(0);" class="icon" onclick="myBurger()">
+            <i class="fa-sharp fa-solid fa-bars"></i></a>
+    </div>
 </section>
 
     <nav id="desNavBar">
@@ -39,7 +37,7 @@
 
     <main>
     <section class="hero">
-        <h1>Hi, I'm<span class="name"> melissa </span></h1>
+        <h1>Hi, I'm<span class="name"> Melissa </span></h1>
             <p class="heroP">and I'm a <br/>Front-End Developer</p>
     </section>
 
@@ -131,24 +129,26 @@
     <section class="contactMe">
         <h2 id="contactMeH2">Contact Me</h2>
         <div class="container">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName" maxlength="100"/>
+            <form id="contactMeForm" action="mailto:mwiggall2023@gmail.com" method="POST"
+             enctype="multipart/form-data" name="emailForm">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" maxlength="100"/>
 
-            <label for="surname">Last Name</label>
-            <input type="text" id="surname" name="surname" maxlength="100"/>
+                <label for="surname">Last Name</label>
+                <input type="text" id="surname" name="surname" maxlength="100"/>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
 
-            <label for="telephone">Telephone</label>
-            <input type="tel" id="telephone" name="telephone" required />    
+                <label for="telephone">Telephone</label>
+                <input type="tel" id="telephone" name="telephone" required />    
 
-            <label for="message">Message</label>
-            <textarea name="message" rows="4" cols="30"></textarea>
+                <label for="message">Message</label>
+                <textarea name="message" rows="4" cols="30"></textarea>
 
-            <input type="submit" value="Send a message" />
+                <input type="submit" value="Send a message" />
         </div>
-              
+             </form>      
     </section>
 
     <section class="iconBtn">
