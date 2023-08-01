@@ -40,18 +40,17 @@ body {
   }
     
     /* Style the hamburger menu */
-  .topnav a.icon {
-      background:#00bcd4;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0; 
+.topnav a.icon {
+    background:#00bcd4;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; 
   }
 
-  .fa-sharp, fa-solid fa-bars {
-    color: white; 
+.burgerMenu{
+    font-size: 30px;
   }
-
 #desNavBar{
     display:flex;
     justify-content: flex-start;   
@@ -326,8 +325,7 @@ i{
     font-size: 40px;
     color: #00bcd4;  
     padding: 30px 0px;
-}
-
+}   
 
 /* footer here//////////////////////////////////////////////////////////////////////////////////////// */
 
