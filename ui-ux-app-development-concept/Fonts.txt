@@ -1,5 +1,0 @@
-Fonts used in this design:
-
-Font: D-DIN
-Author: datto
-Url: https://www.fontsquirrel.com/fonts/d-din
