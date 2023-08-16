@@ -109,7 +109,7 @@ h1{
 
 /* main section starts here///////////////////////////////////////////////////////////////// */
 #aboutMe{
-    padding: 20px 0px 0px 0px ;
+    
 }
 
 
@@ -117,21 +117,22 @@ h1{
     color:rgb(7, 6, 6,);
     font-weight: 300;
     text-align: center;
-    padding: 10px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
     font-size: 30px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
+
 .sectionP {
     font-size: 16px;
     font-weight: 300;
-    padding: 20px 15px 0px 15px;
+    padding: 0px 15px 0px 15px;
 }
 /* skills starts here////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #skills{ 
     background-color: #b3ebf2;
-    padding:20px 0px 0px 0px;
+
 }
 
 
@@ -139,6 +140,7 @@ h1{
      columns: 3;
      -webkit-columns: 3;
      -moz-columns: 3;
+     padding-bottom: 10px;
 }
 
 
@@ -154,7 +156,7 @@ li{
     color:rgba(7, 6, 6,);
     font-weight: 300;
     text-align: center;
-    padding:20px 0px;
+    
 }
 
 /* photos section/////////////////////////////////////////////////////////////////////////////////////////// */
@@ -173,7 +175,6 @@ li{
 /* projects section here////////////////////////////////////////////////////////////////////////////////////////// */
 #projects{
     background-color: #b3ebf2;
-    padding: 20px 0px;
     text-align: center;
 }
 
@@ -228,7 +229,7 @@ img {
 
 /* contact section here/////////////////////////////////////////////////////////////////////////////////////// */
 #contactMe{
-    padding: 20px 0px;
+
 }
 
 
