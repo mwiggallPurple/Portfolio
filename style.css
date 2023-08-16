@@ -144,13 +144,6 @@ li{
     letter-spacing: 1.1px;
 }
 
-#softSkills{
-    color:rgba(7, 6, 6,);
-    font-weight: 300;
-    text-align: center;
-    
-}
-
 /* photos section/////////////////////////////////////////////////////////////////////////////////////////// */
 .photos{
     display:flex;
@@ -170,6 +163,7 @@ li{
 #projects{
     background-color: #b3ebf2;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .card {
@@ -224,7 +218,6 @@ img {
 #contactMe{
 
 }
-
 
 .container {
     width: 250px;
