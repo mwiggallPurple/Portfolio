@@ -109,7 +109,7 @@ h1{
 
 /* main section starts here///////////////////////////////////////////////////////////////// */
 #aboutMe{
-    padding: 20px 0px;
+    padding: 20px 0px 0px 0px ;
 }
 
 
@@ -117,7 +117,7 @@ h1{
     color:rgb(7, 6, 6,);
     font-weight: 300;
     text-align: center;
-    padding: 15px 0px;
+    padding: 10px 0px 0px 0px;
     font-size: 30px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
@@ -131,7 +131,7 @@ h1{
 
 #skills{ 
     background-color: #b3ebf2;
-    padding:20px 0px;
+    padding:20px 0px 0px 0px;
 }
 
 
@@ -185,7 +185,7 @@ li{
     background-color: white;
     box-shadow: rgba(7, 6, 6, 0.35) 0px 5px 15px;
     height: 200px;
-    margin: 10px;  
+    margin: 15px 10px 10px 10px;  
 }
 
 img {
