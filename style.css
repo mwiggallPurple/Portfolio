@@ -128,11 +128,11 @@ h1{
     font-weight: 300;
     padding: 0px 15px 0px 15px;
 }
+
 /* skills starts here////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #skills{ 
     background-color: #b3ebf2;
-
 }
 
 
@@ -173,11 +173,12 @@ li{
     border-radius: 50%;
 }
 /* projects section here////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 #projects{
     background-color: #b3ebf2;
     text-align: center;
 }
-
 
 .card {
     display:inline-block;
