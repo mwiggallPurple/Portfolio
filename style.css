@@ -108,12 +108,12 @@ h1{
 
 
 /* main section starts here///////////////////////////////////////////////////////////////// */
-.aboutMe{
+#aboutMe{
     padding: 20px 0px;
 }
 
 
-#aboutMeH2{
+.sectionH2{
     color:rgb(7, 6, 6,);
     font-weight: 300;
     text-align: center;
@@ -122,26 +122,18 @@ h1{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
-.aboutP {
+.sectionP {
     font-size: 16px;
     font-weight: 300;
     padding: 20px 15px 0px 15px;
 }
 /* skills starts here////////////////////////////////////////////////////////////////////////////////////////////// */
-.skills{ 
+
+#skills{ 
     background-color: #b3ebf2;
     padding:20px 0px;
 }
 
-#skillsH2{
-    color:rgb(7, 6, 6,);
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    padding: 15px 0px 0px 0px;
-    letter-spacing:1.1px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
-} 
 
 .skillsL{
      columns: 3;
@@ -158,22 +150,13 @@ li{
     letter-spacing: 1.1px;
 }
 
-.softSkills{
+#softSkills{
     color:rgba(7, 6, 6,);
     font-weight: 300;
     text-align: center;
     padding:20px 0px;
 }
 
-.softSkillsH2{
-    color:rgba(7, 6, 6,);
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    padding: 15px 0px;
-    letter-spacing: 1.1px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
-}
 /* photos section/////////////////////////////////////////////////////////////////////////////////////////// */
 .photos{
     display:flex;
@@ -188,27 +171,12 @@ li{
     border-radius: 50%;
 }
 /* projects section here////////////////////////////////////////////////////////////////////////////////////////// */
-.projects{
+#projects{
     background-color: #b3ebf2;
     padding: 20px 0px;
     text-align: center;
 }
 
-#projectsH2{
-    color:rgba(7, 6, 6,);
-    font-weight: 300;
-    font-size: 30px;
-    padding: 15px 0px;
-    letter-spacing:1.1px;
-    text-shadow: 2px 2px 3px rgba(7,6,6,0.3);
-}
-
-.projectsP{
-    font-size: 16px;
-    font-weight: 300;
-    padding: 0px 0px 15px 0px;
-    letter-spacing: 1.1px;
-}
 
 .card {
     display:inline-block;
@@ -259,19 +227,10 @@ img {
 }
 
 /* contact section here/////////////////////////////////////////////////////////////////////////////////////// */
-.contactMe{
+#contactMe{
     padding: 20px 0px;
 }
 
-#contactMeH2{
-    color:rgba(7, 6, 6,);
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    padding: 20px 0px;
-    letter-spacing:1.1px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
-}
 
 .container {
     width: 250px;
