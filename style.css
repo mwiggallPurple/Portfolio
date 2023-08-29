@@ -10,11 +10,11 @@ body {
 }
 #mobileView{
     background-color: #00bcd4;
+    height:45px;
   }
   
   .topnav {
     overflow: hidden;
-    background-color: #00bcd4; 
     top: 0;    
   }
       
@@ -33,7 +33,6 @@ body {
       
      
   .topnav a.icon {
-      background:#00bcd4;
       display: block;
       position: absolute;
       right: 0;
