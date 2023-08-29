@@ -222,8 +222,8 @@ img {
 }
 
 .container {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     margin:auto;
     padding:20px ;
     background-color: hsla(182, 25%, 50%, 0.181);
