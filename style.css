@@ -15,11 +15,14 @@ body {
   
   .topnav {
     overflow: hidden;
-    top: 0;    
+    background-color: #00bcd4;
+    top: 0;  
+    position:relative;
   }
       
-  .topnav #myLinks {
-    display: none;
+  #myLinks {
+    display: none;  
+    background-color: #00bcd4;
   }
           
   .topnav a {
@@ -27,19 +30,15 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    display: block; 
-  }
-      
+    display: block;  
+  }     
      
-  .topnav a.icon {
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0; 
-  }
-  
   .burgerMenu{
-      font-size: 30px;
+    display:block;
+    position:absolute;
+    right:10px;
+    top:10px;
+    font-size: 40px;
     }
   
   #desNavBar{
@@ -234,8 +233,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 [type="submit"],
-textarea 
-{
+textarea {
 width: 100%;
 padding: 7px 0px 7px 0px;
 border: none;
