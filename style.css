@@ -21,8 +21,7 @@ body {
   .topnav #myLinks {
     display: none;
   }
-      
-      
+          
   .topnav a {
     color:white;
     padding: 14px 16px;
@@ -244,6 +243,7 @@ border-radius: 5px;
 
 input[type="submit"] {
 width: 100%;
+height: 50px;
 background-color: #00bcd4;
 color: #333333;
 cursor: pointer;
