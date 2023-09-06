@@ -41,31 +41,33 @@ body {
     font-size: 40px;
     }
   
-  #desNavBar{
-      display:flex;
-      justify-content: flex-start;   
+  #desNavBar{ 
       background-color: #00bcd4; 
-      height:25px;
-      align-items: center;
       letter-spacing:1.1px;
   }
+
+  .navList{
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
   
-  #desNavBar a{
-      color:white;
+  .navLinks{
+      color: white;
       font-size: 16px;
       font-weight: 300;
       padding: 4px 10px;
       text-decoration: none; 
   }
-  
-  #desNavBar a:hover{
+
+#desNavBar a:hover{
       text-decoration: underline;
       text-decoration-color:white; 
   }
   
-  #desNavBar{
+#desNavBar{
       display:none;
-  }
+}
 
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./kjue_15.jpg");
