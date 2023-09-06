@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
 }
+/* mobile nav burger starts here//////////////////////////////////////// */
 #mobileView{
     background-color: #00bcd4;
     height:45px;
@@ -40,7 +41,9 @@ body {
     top:10px;
     font-size: 40px;
     }
-  
+  /* mobile nav burger ends here///////////////////////////////////////////////////////////////// */
+
+  /* desktop nav starts here/////////////////////////////////////////////////////////////////////////// */
   #desNavBar{ 
       background-color: #00bcd4; 
       letter-spacing:1.1px;
@@ -68,7 +71,10 @@ body {
 #desNavBar{
       display:none;
 }
+/* desktop nav bar ends here//////////////////////////////////////////////////////////// */
 
+
+/* hero section starts here/////////////////////////////////////////////////////////////////// */
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./kjue_15.jpg");
     background-position: center;
@@ -216,10 +222,8 @@ img {
     text-decoration-color:#00bcd4 ;
 }
 
-/* contact section here/////////////////////////////////////////////////////////////////////////////////////// */
-#contactMe{
+/* contact form section here/////////////////////////////////////////////////////////////////////////////////////// */
 
-}
 
 .container {
     width: 350px;
@@ -243,7 +247,8 @@ border: none;
 border-radius: 5px;
 }
 
-input[type="submit"] {
+input[type="submit"] 
+{
 width: 100%;
 height: 50px;
 background-color: #00bcd4;
@@ -267,6 +272,8 @@ label{
     letter-spacing: 1px;
 }
 
+
+/* icons for social media start here  */
 .iconBtn{
     display:flex;
     justify-content: space-evenly;
@@ -292,6 +299,8 @@ footer{
 footer p{
     margin-left: 3px;
 }
+
+/* media query to switch mobile nav off at 500px */
 
 @media screen and  (min-width: 500px) {
 #mobileView {
