@@ -320,4 +320,8 @@ footer p{
     .desktopView{
         display:block;
     }
+
+    li{
+        font-size: 18px;
+    }
 }
