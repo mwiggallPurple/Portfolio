@@ -76,7 +76,7 @@ body {
 
 /* hero section starts here/////////////////////////////////////////////////////////////////// */
 .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./kjue_15.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./kjue_15\ 1\ comp.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +134,14 @@ h1{
 
 #skills{ 
     background-color: #b3ebf2;
-}
+    }
+
+    .techSkills{
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;   
+        padding-bottom:15px;
+    }
 
 .skillsL{
      columns: 2;
