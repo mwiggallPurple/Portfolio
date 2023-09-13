@@ -323,7 +323,7 @@ footer p{
         display:block;
     }
 
-    .desktopView{
+    .desktopView{       /* Switches one photo on in the skills section    */
         display:block;
     }
 
@@ -336,7 +336,7 @@ footer p{
     }
 
     .photos img{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
 }
