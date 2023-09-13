@@ -85,6 +85,7 @@ body {
 
 
 h1{
+    /* I used vw for text as it will re-size to different screen sizes. */
     font-size: 7vw;
     text-align: center;
     color: white;
@@ -96,7 +97,6 @@ h1{
 
 .name{
     color: #fff000;
-    /* padding left was here */
     font-weight: 400;
     letter-spacing: -2px;
 }
@@ -106,7 +106,6 @@ h1{
     color: white;
     font-size: 4vw;
     font-weight: 300;
-    
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
