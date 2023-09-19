@@ -318,7 +318,7 @@ footer p{
     margin-left: 3px;
 }
 
-/* media query to switch mobile nav off at 500px */
+/* media query to switch mobile nav off on screens over 500px, I prefer drop-down menu links on screens bigger than a phone */
 
 @media screen and  (min-width: 500px) {
 #mobileView {
